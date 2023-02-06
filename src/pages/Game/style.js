@@ -20,10 +20,10 @@ export const Container = styled.div`
 `;
 
 export const Square = styled.div`
-	gap: 20px;
+	gap: 15px;
 	display: grid;
 	padding: 10px;
-	border-radius: 30px;
+	border-radius: 20px;
 	grid-template-columns: repeat(3, 1fr);
 `;
 
@@ -37,7 +37,7 @@ export const BoxContent = styled.div`
 	border-radius: 10px;
 	justify-content: center;
 	flex-direction: column;
-	background-color: rgb(121, 121, 121);
+  	background-color: grey;
 `;
 
 export const Item = styled.div`
@@ -53,3 +53,5 @@ export const Item = styled.div`
 			animation: ${changeColor} 2s ease forwards;
 		`}
 `;
+
+
